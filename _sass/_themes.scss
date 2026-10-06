@@ -10,7 +10,7 @@
   color-scheme: light;
   --global-bg-color: #{v.$white-color};
   --global-code-bg-color: #{v.$code-bg-color-light};
-  --global-text-color: #0d1117;
+  --global-text-color: #000000;
   --global-text-color-light: #4a525c;
   --global-theme-color: #1c4a61;
   --global-hover-color: #1c4a61;
@@ -18,7 +18,7 @@
   --global-footer-bg-color: #{v.$grey-color-dark};
   --global-footer-text-color: #{v.$grey-color-light};
   --global-footer-link-color: #{v.$white-color};
-  --global-distill-app-color: #{v.$grey-color};
+  --global-distill-app-color: #{v.$white-color};
   --global-divider-color: #cfd4d8;
   --global-card-bg-color: #{v.$white-color};
   --global-highlight-color: #{v.$red-color-dark};
@@ -285,6 +285,8 @@ body .publications ol.bibliography li .title {
 // Section headings inside pages (research, etc.)
 body .post article h2 {
   margin-top: 2rem;
+  text-transform: capitalize;
+  color: var(--global-theme-color); // #1c4a61 in light mode; switches to light blue in dark mode
 }
 
 body .post article h3 {
@@ -294,3 +296,88 @@ body .post article h3 {
   margin-top: 1.75rem;
   margin-bottom: 0.5rem;
 }
+
+// Contact icons under the bio, left-aligned and smaller
+body .social.social-inline {
+  text-align: left;
+  margin: 0.25rem 0 0.5rem;
+
+  .contact-icons {
+    font-size: 1.75rem;
+
+    a {
+      margin-right: 0.6rem;
+    }
+
+    a svg,
+    a img {
+      width: 1.75rem;
+      height: 1.75rem;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// Funding table on the home page
+body table.funding {
+  width: 100%;
+  font-size: 0.95rem;
+
+  td {
+    padding: 0.35rem 0.75rem 0.35rem 0;
+    vertical-align: top;
+    border: 0;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  td:first-child {
+    white-space: nowrap;
+  }
+
+  td.years {
+    white-space: nowrap;
+    color: var(--global-text-color-light);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+body .post article .accent {
+  color: var(--global-theme-color);
+}
+
+// Research page: one figure to the right of each project (stacks under the heading on phones)
+body .research-fig {
+  float: right;
+  width: 40%;
+  margin: 0.2rem 0 1rem 1.5rem;
+
+  img {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    background: #ffffff; // figures have white backgrounds; keeps them readable in dark mode
+  }
+
+  figcaption {
+    font-size: 0.82rem;
+    line-height: 1.4;
+    color: var(--global-text-color-light);
+    margin-top: 0.4rem;
+  }
+}
+
+// Each project heading starts below the previous project's figure
+body .post article h2,
+body .post article h3 {
+  clear: both;
+}
+
+@media (max-width: 576px) {
+  body .research-fig {
+    float: none;
+    width: 100%;
+    margin: 0.5rem 0 1rem;
+  }
+}
+

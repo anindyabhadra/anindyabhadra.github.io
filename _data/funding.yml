@@ -1,0 +1,32 @@
+# Grants shown at the bottom of the home page (same order as your old homepage).
+# To add a grant, copy one block and edit it.
+
+- award: NSF SES-2448704
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2448704&HistoricalAwards=false
+  title: Likelihood-based Inference for Exponential Family Graphical Models
+  years: 2025–2028
+  role: Co-PI
+
+- award: NSF DMS-2014371
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2014371&HistoricalAwards=false
+  title: "Developments in Gaussian processes and beyond: applications in geostatistics and deep learning"
+  years: 2020–2023
+  role: PI
+
+- award: NSF DMS-1613063
+  url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1613063&HistoricalAwards=false
+  title: Bayesian global-local shrinkage in high dimensions
+  years: 2016–2019
+  role: PI
+
+- award: NCI R01CA215834
+  url: https://reporter.nih.gov/search/Djba5VRVw0a--BdtiATcVQ/project-details/9919514
+  title: Development of a total nutrient index
+  years: 2017–2021
+  role: Co-I
+
+- award: NCI R21CA224764
+  url: https://projectreporter.nih.gov/project_info_description.cfm?aid=9601212&icde=39838386
+  title: Temporal dietary and physical activity patterns related to health outcomes
+  years: 2018–2020
+  role: Co-I
