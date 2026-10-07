@@ -5,6 +5,8 @@ title: software
 description: Code accompanying papers, newest first. Most repositories are maintained by the student or postdoc who led the work.
 nav: true
 nav_order: 5
+_styles: >
+    .post article table td:first-child { overflow-wrap: anywhere; }
 ---
 
 | Repository | Language | Paper | Reference |

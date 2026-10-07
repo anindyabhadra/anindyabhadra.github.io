@@ -12,14 +12,14 @@ nav_order: 4
 ## Postdocs
 {: .bibliography}
 
-- **[Jin Hyung Lee](https://jlee309.github.io)** (current).
-- **[Xiao Fang](https://scholar.google.com/citations?user=VgFESYUAAAAJ&hl=en)** (2022&ndash;25).
+- **[Jin Hyung Lee](https://jlee309.github.io)** (current)
+- **[Xiao Fang](https://scholar.google.com/citations?user=VgFESYUAAAAJ&hl=en)** (2022&ndash;25)
 
 ## PhD students
 {: .bibliography}
 
-- **Medhalakshmi Acharya** (current).
-- **[Zejin Gao](https://scholar.google.com/citations?user=8N3uJ-sAAAAJ&hl=en)** (current).
+- **Medhalakshmi Acharya** (current)
+- **[Zejin Gao](https://scholar.google.com/citations?user=8N3uJ-sAAAAJ&hl=en)** (current)
 - **[Yujie Chen](https://scholar.google.com/citations?user=kqUsECcAAAAJ&hl=en)** (Graduation: August, 2026)
 - **[Jorge Lor&iacute;a](https://loriaj.github.io)** (Graduation: May, 2024)
 - **[Ksheera Sagar](https://scholar.google.com/citations?user=TR8u76IAAAAJ&hl=en)** (Graduation: May, 2023)
