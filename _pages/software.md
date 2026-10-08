@@ -11,6 +11,7 @@ _styles: >
 
 | Repository | Language | Paper | Reference |
 | :-- | :-- | :-- | :-- |
+| [CR-MRF-ordinal-preference-data](https://github.com/chenyujie1104/CR-MRF-ordinal-preference-data) | R | Covariate-dependent Joint Modeling of Multivariate Ordinal Preferences and Its Connections with Comparison Models | [Chen et al. (2026, preprint)](https://arxiv.org/abs/2610.09070) |
 | [RT_SPD](https://github.com/anindyabhadra/RT_SPD) | Python | The Reverse Telescoping Coordinate System for Positive Definite Matrices: Geometry, Computation, and Generative Modeling | [Bhadra (2026, preprint)](https://arxiv.org/abs/2606.15442) |
 | [RTsampler](https://github.com/gao702/RTsampler) | R | An Order of Magnitude Time Complexity Reduction for Gaussian Graphical Model Posterior Sampling Using a Reverse Telescoping Block Decomposition | [Gao et al. (2026, preprint)](https://arxiv.org/abs/2509.26385) |
 | [qDAGx](https://github.com/sagarknk/qDAGx) | R | Bayesian Covariate-Dependent Quantile Directed Acyclic Graphical Models for Individualized Inference | [Sagar et al. (2026, preprint)](http://arxiv.org/abs/2210.08096) |
